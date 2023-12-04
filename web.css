@@ -1,0 +1,43 @@
+Header{
+Height: 100px;
+Align-items: center;
+Width: 100%;
+Background: black;
+Color:white;
+Display:flex;
+Justify-content: space-around;
+}
+.logo {
+Font-size:48px
+}
+nav{
+display:flex;
+Gap:20px;
+Font-size:30px
+}
+
+nav li:hover{
+Background: White;
+Color:black;
+}
+
+li{
+list-style-type:none;
+padding: 0px;
+margin: 0px;
+}
+
+.container{
+Display: flex;
+Gap: 10px;
+}
+img {
+object-fit: contain;
+}
+.container-text{
+Font-size:25px;
+}
+
+h1{
+border-bottom: 2px solid black;
+}
